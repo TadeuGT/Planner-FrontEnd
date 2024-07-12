@@ -9,3 +9,9 @@
 input {
     color-scheme:dark
 }
+
+//Seleção de cor do React Day Picker não funcionando
+:root {
+    --rdp-accent-color: #BEF264;
+    --rdp-accent-color-dark: #BEF264;
+}
