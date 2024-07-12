@@ -1,7 +1,7 @@
 # plann.er 
 #### Planejador de viagens desenvolvido na NLW Journey em julho de 2024.
 ---
-##### Branches: {#branches}
+##### Branches:
 - nlw-orig: *Projeto original desenvolvido durante a NLW (faltando algumas telas e integrações)*
 - main: *Desenvolvimento independente continuado*
 
