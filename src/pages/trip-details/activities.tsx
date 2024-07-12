@@ -44,6 +44,7 @@ export function Activities() {
                                         {format(activity.occurs_at, 'HH:mm')}h
                                     </span>
                                 </div>
+                                <div className="space-y-1"></div>
                             </div>
                             )
                         })}
