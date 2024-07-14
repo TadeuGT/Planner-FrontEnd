@@ -19,8 +19,12 @@ function closeCreateActivityModal() {
 
 
     return (
-        <div className="max-w-6xl px-6 py-10 mx-auto space-y-8">
-            
+        <div className="max-w-6xl px-6 py-5 mx-auto space-y-8">
+        
+            <div className="rounded-lg max-w-6xl px-6 py-3 mx-auto ">
+                <a href="http://localhost:5173/"><img src="/logo.svg" alt="plann.er" className="hover:opacity-50" /></a>
+            </div>
+
             <DestinationAndDateHeader />
 
             <main className="flex gap-16 px-4">
@@ -49,6 +53,10 @@ function closeCreateActivityModal() {
             {isCreateActivityModalOpen && (
                 <CreateActivityModal closeCreateActivityModal={closeCreateActivityModal} />
             )}
+            
+            <div className="bg-zinc-900/70 rounded-lg max-w-6xl px-6 py-2 mx-auto shadow-shape flex justify-center">
+                <img src="/logo.svg" alt="plann.er" className="opacity-10 hover:opacity-100" /> 
+            </div>
 
         </div>
     )
