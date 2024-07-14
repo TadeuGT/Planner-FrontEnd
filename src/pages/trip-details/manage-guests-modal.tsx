@@ -71,7 +71,7 @@ export function ManageGuestsModal({
 
             
             <Button variant="primary" size="full">
-                Salvar link
+                Adicionar convidado
             </Button>
 
         </form>
